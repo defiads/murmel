@@ -18,7 +18,7 @@ path = "src/lib.rs"
 lightning = { version ="0.0.9", optional=true }
 bitcoin = { git= "https://github.com/defiads/rust-bitcoin.git", branch = "patches", features=["serde", "bitcoinconsensus"]}
 bitcoin_hashes = "0.7"
-hammersbald = { git= "https://github.com/defiads/hammersbald.git", branch = "master", features=["bitcoin_support"]}
+hammersbald = { git= "https://github.com/defiads/hammersbald.git", branch = "patches", features=["bitcoin_support"]}
 mio = "0.6"
 rand = "0.7"
 log = "0.4"
